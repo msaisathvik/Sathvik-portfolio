@@ -20,9 +20,9 @@ const Hero = () => {
 
         <div className="flex flex-row gap-3 items-center">
           <p className="text-sm sm:text-base">Download My Resume: </p>
-          <a href="src/assets/ResumeUpdated.pdf" download>
+          <a href="/assets/ResumeUpdated.pdf" download>
             <img 
-              src="src/assets/download.jpg" 
+              src="/assets/download.jpg" 
               alt="Download Icon" 
               className="w-6 h-6 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-200"
             />
