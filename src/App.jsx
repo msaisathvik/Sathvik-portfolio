@@ -12,7 +12,7 @@ const App = () => {
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] grid min-h-screen grid-rows-[auto_1fr]'>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/Sathvik-portfolio' element={<Home />}/>
         <Route path='/projects' element={<Projects />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/achievements' element={<Achievements />} />
