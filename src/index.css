@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+body { font-family: 'Lora', serif; }
+h1, h2 { font-family: 'Playfair Display', serif; }
+
+.typewriter p {
+  border-right: .15em solid black;
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.typewriter p:nth-child(1) {
+  width: 10em; /* Adjusted width for the first paragraph */
+  animation: type1 2s steps(40, end);
+  animation-fill-mode: forwards;
+}
+
+.typewriter p:nth-child(2) {
+  width: 13em; /* Ensure this width fits the full text of the second paragraph */
+  opacity: 0;
+  animation: type2 4s steps(40, end); /* Adjusted timing for a longer typing effect */
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type1 {
+  0% {
+    width: 0;
+    border: none;
+  }
+  99.9% {
+    border-right: .15em solid black;
+  }
+  100% {
+    border: 1px solid;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+    border: none;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid black;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+fieldset p {
+  width:50px;
+  height:50px;
+}
+
+* {
+  overflow: hidden;
+}
