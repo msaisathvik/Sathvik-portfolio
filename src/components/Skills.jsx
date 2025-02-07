@@ -8,22 +8,22 @@ const Skills = () => {
         <fieldset className='border'>
           <legend className='text-center text-2xl'>Languages</legend>
           <div className='flex flex-row  w-[70vw] justify-around p-5 mt-5'>
-            <p><img src={`/assets/C.PNG`} alt="C Language" /></p>
-            <p><img src={`/assets/c-plus-plus-programming-language-icon.PNG`} alt="C++ Language" /></p>
-            <p><img src={`/assets/python-programming-language-icon.PNG`} alt="Python Language" /></p>
-            <p><img src={`/assets/javascript-programming-language-icon.PNG`} alt="JavaScript Language" /></p>
-            <p><img src={`/assets/html-icon.PNG`} alt="HTML" /></p>
-            <p><img src={`/assets/css-icon.PNG`} alt="CSS" /></p>
+            <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932750/C_Language_Logo.svg_flkllj.png`} alt="C Language" /></p>
+            <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932750/c-plus-plus-programming-language-icon_oo9whk.png`} alt="C++ Language" /></p>
+            <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932752/python-programming-language-icon_bfxnho.png`} alt="Python Language" /></p>
+            <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932751/javascript-programming-language-icon_wv9oqg.png`} alt="JavaScript Language" /></p>
+            <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932751/html-icon_qbj7wr.png`} alt="HTML" /></p>
+            <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932749/css-icon_t6nh0r.png`} alt="CSS" /></p>
           </div>
           
         </fieldset>
         <fieldset className='border'>
           <legend className='text-center text-2xl'>Technologies</legend>
           <div className='flex flex-row  w-[70vw] justify-around p-5 mt-5'>
-            <p><img src="/assets/node-js-icon.PNG" alt="Node js" /></p>
-            <p><img src="/assets/react-js-icon.PNG" alt="React js" /></p>
-            <p><img src="/assets/express-js-icon.PNG" alt="Express js" /></p>
-            <p><img src="/assets/postgresql-icon.PNG" alt="PostgreSQL" /></p>
+            <p><img src="https://res.cloudinary.com/dblxuatyc/image/upload/v1738932751/node-js-icon_hfybsy.png" alt="Node js" /></p>
+            <p><img src="https://res.cloudinary.com/dblxuatyc/image/upload/v1738932752/react-js-icon_zufsum.png" alt="React js" /></p>
+            <p><img src="https://res.cloudinary.com/dblxuatyc/image/upload/v1738932750/express-js-icon_g4jsvn.png" alt="Express js" /></p>
+            <p><img src="https://res.cloudinary.com/dblxuatyc/image/upload/v1738932752/postgresql-icon_j5tr6f.png" alt="PostgreSQL" /></p>
           </div>
           
         </fieldset>
