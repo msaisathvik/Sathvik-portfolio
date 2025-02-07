@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Skills from './components/Skills';
+import Projects from './components/projects';
 import Achievements from './components/Achievements';
 
 const App = () => {
