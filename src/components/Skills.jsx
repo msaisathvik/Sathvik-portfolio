@@ -20,10 +20,10 @@ const Skills = () => {
         <fieldset className='border'>
           <legend className='text-center text-2xl'>Technologies</legend>
           <div className='flex flex-row  w-[70vw] justify-around p-5 mt-5'>
-            <p><img src="../assets/node-js-icon.png" alt="Node js" /></p>
-            <p><img src="../assets/react-js-icon.png" alt="React js" /></p>
-            <p><img src="../assets/express-js-icon.png" alt="Express js" /></p>
-            <p><img src="../assets/postgresql-icon.png" alt="PostgreSQL" /></p>
+            <p><img src="./assets/node-js-icon.png" alt="Node js" /></p>
+            <p><img src="./assets/react-js-icon.png" alt="React js" /></p>
+            <p><img src="./assets/express-js-icon.png" alt="Express js" /></p>
+            <p><img src="./assets/postgresql-icon.png" alt="PostgreSQL" /></p>
           </div>
           
         </fieldset>
