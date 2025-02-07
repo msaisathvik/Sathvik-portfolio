@@ -22,7 +22,7 @@ const Hero = () => {
           <p className="text-sm sm:text-base">Download My Resume: </p>
           <a href="/assets/ResumeUpdated.pdf" download>
             <img 
-              src="/assets/download.jpg" 
+              src={`${process.env.PUBLIC_URL}/assets/download.jpg`} 
               alt="Download Icon" 
               className="w-6 h-6 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-200"
             />

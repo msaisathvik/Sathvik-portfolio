@@ -8,12 +8,12 @@ const Skills = () => {
         <fieldset className='border'>
           <legend className='text-center text-2xl'>Languages</legend>
           <div className='flex flex-row  w-[70vw] justify-around p-5 mt-5'>
-            <p><img src="\assets\C_Language_Logo.svg.png" alt="C Language" /></p>
-            <p><img src="\assets\c-plus-plus-programming-language-icon.png" alt="C++ Language" /></p>
-            <p><img src="\assets\python-programming-language-icon.png" alt="Python Language" /></p>
-            <p><img src="\assets\javascript-programming-language-icon.png" alt="JavaScript Language" /></p>
-            <p><img src="\assets\html-icon.png" alt="HTML" /></p>
-            <p><img src="\assets\css-icon.png" alt="CSS" /></p>
+            <p><img src={`${process.env.PUBLIC_URL}/assets/C_Language_Logo.svg.png`} alt="C Language" /></p>
+            <p><img src={`${process.env.PUBLIC_URL}/assets/c-plus-plus-programming-language-icon.png`} alt="C++ Language" /></p>
+            <p><img src={`${process.env.PUBLIC_URL}/assets/python-programming-language-icon.png`} alt="Python Language" /></p>
+            <p><img src={`${process.env.PUBLIC_URL}/assets/javascript-programming-language-icon.png`} alt="JavaScript Language" /></p>
+            <p><img src={`${process.env.PUBLIC_URL}/assets/html-icon.png`} alt="HTML" /></p>
+            <p><img src={`${process.env.PUBLIC_URL}/assets/css-icon.png`} alt="CSS" /></p>
           </div>
           
         </fieldset>
