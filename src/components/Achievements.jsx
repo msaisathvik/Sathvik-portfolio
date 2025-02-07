@@ -7,7 +7,7 @@ const Achievements = () => {
       <div className='w-full text-center flex flex-col items-center' >
         <h2>Won the <b>'BEST ENGINEERING SOLUTION AWARD'</b> in a NASA Hackathon</h2><br />
         <p className='w-2/3 '>We built a website which contained various information about Exoplanets and we added simulations to learn more about each Exoplanet</p>
-        <p>Certificate: <a href="src\assets\NASA_S_1.pdf" download>Download File</a></p>
+        <p>Certificate: <a href="/assets/NASA_S_1.pdf" download>Download File</a></p>
       </div>
 
       <h1 className='text-3xl text-center '><b>MY ONLINE COURSES</b></h1>
