@@ -20,7 +20,7 @@ const Hero = () => {
 
         <div className="flex flex-row gap-3 items-center">
           <p className="text-sm sm:text-base">Download My Resume: </p>
-          <a href="/assets/ResumeUpdated.pdf" download>
+          <a href="${import.meta.env.BASE_URL}ResumeUpdated.pdf" download>
             <img 
               src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932749/download_khnf2u.jpg`} 
               alt="Download Icon" 
