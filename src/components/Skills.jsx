@@ -8,7 +8,7 @@ const Skills = () => {
         <fieldset className='border'>
           <legend className='text-center text-2xl'>Languages</legend>
           <div className='flex flex-row  w-[70vw] justify-around p-5 mt-5'>
-            <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932750/C_Language_Logo.svg_flkllj.png`} alt="C Language" /></p>
+            <p><img src={`/assets/c-plus-plus-programming-language-icon.png`} alt="C Language" /></p>
             <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932750/c-plus-plus-programming-language-icon_oo9whk.png`} alt="C++ Language" /></p>
             <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932752/python-programming-language-icon_bfxnho.png`} alt="Python Language" /></p>
             <p><img src={`https://res.cloudinary.com/dblxuatyc/image/upload/v1738932751/javascript-programming-language-icon_wv9oqg.png`} alt="JavaScript Language" /></p>
